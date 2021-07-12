@@ -26,7 +26,7 @@ body {
 
 .game-area {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 10px;
     grid-template-columns: repeat(4, auto);
     justify-content: center;
     margin: 40px;
@@ -36,4 +36,9 @@ body {
     background-color: black;
     height: 200px;
     width: 200px;
+}
+
+.card-back,
+.card-front {
+    position: absolute;
 }
