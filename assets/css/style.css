@@ -38,3 +38,8 @@ body {
     width: 200px;
 }
 
+.card-back,
+.card-front {
+    position: absolute;
+}
+
